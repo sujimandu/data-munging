@@ -1,7 +1,11 @@
  body {
-  font: 10px sans-serif;
+  font: 15px sans-serif;
   background: white;
 }
+.legend {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size:15px;
+        }
 .x.axis path {
     display: none;
 }
