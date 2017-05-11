@@ -57,6 +57,7 @@
             return d;
         })
         .enter().append("rect")
+        .transition().duration(500).delay(function(d,i){return i*300})
         .attr("x", function (d) {
             return horizontal(d.x);
           })
@@ -66,6 +67,7 @@
           .attr("height", function (d) {
               return vertical(d.y0) - vertical(d.y + d.y0);
         })
+
       .attr("width", horizontal.rangeBand());
 
   svg.append("g")
