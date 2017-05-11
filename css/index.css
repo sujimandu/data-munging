@@ -1,0 +1,19 @@
+header h1{
+	padding: 1em;
+	color:white;
+	background-color: black;
+	text-align: center;
+}
+a:hover{
+	color: purple;
+}
+nav{
+	float: left;
+	max-width: 160px;
+	padding: 1em;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+
+}

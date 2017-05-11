@@ -1,0 +1,16 @@
+ body {
+  font: 10px sans-serif;
+  background: pink;
+}
+.x.axis path {
+    display: none;
+}
+.line {
+    fill: none;
+    stroke-width: 3px;
+}
+path {
+  stroke: blue;
+  stroke-width: 3;
+  fill: none;
+}
