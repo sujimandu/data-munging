@@ -2,8 +2,8 @@
     width=1000-margin.left-margin.right,
     height=600-margin.top-margin.bottom;
 
-  var horizontal=d3.scale.ordinal().rangeRoundBands([0,width],.48),
-    vertical=d3.scale.linear().rangeRound([height,50]);
+  var horizontal=d3.scale.ordinal().rangeRoundBands([0,width],.12),
+    vertical=d3.scale.linear().rangeRound([height,0]);
 
   var color = d3.scale.ordinal().range(["#d0743c","#ff8c00"]);
 
